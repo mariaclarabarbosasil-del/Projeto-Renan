@@ -1,0 +1,140 @@
+{
+  "notes": [
+    {
+      "slug": "aprendizado",
+      "title": "Aprendizado Contínuo",
+      "tags": [
+        "pratica",
+        "conceito"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "captura",
+      "title": "Captura de Informação",
+      "tags": [
+        "pratica",
+        "metodo"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "escrita",
+      "title": "Escrita para Pensar",
+      "tags": [
+        "pratica",
+        "escrita"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "ferramentas",
+      "title": "Ferramentas",
+      "tags": [
+        "tecnico",
+        "meta"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "grafos-de-conhecimento",
+      "title": "Grafos de Conhecimento",
+      "tags": [
+        "estrutura",
+        "visualizacao"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "inicio",
+      "title": "Início",
+      "tags": [
+        "entrada",
+        "meta"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "mapas-de-conteudo",
+      "title": "Mapas de Conteúdo",
+      "tags": [
+        "metodo",
+        "estrutura",
+        "moc"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "moc",
+      "title": "MOC — Mapa do Cérebro",
+      "tags": [
+        "moc",
+        "meta"
+      ],
+      "type": "moc"
+    },
+    {
+      "slug": "notas-atomicas",
+      "title": "Notas Atômicas",
+      "tags": [
+        "metodo",
+        "escrita"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "projeto-renan",
+      "title": "Projeto Renan",
+      "tags": [
+        "projeto",
+        "trabalho"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "projetos",
+      "title": "Projetos",
+      "tags": [
+        "pratica",
+        "trabalho"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "revisao-espacada",
+      "title": "Revisão Espaçada",
+      "tags": [
+        "pratica",
+        "memoria"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "segundo-cerebro",
+      "title": "Segundo Cérebro",
+      "tags": [
+        "conceito",
+        "metodo"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "wikilinks",
+      "title": "Wikilinks",
+      "tags": [
+        "sintaxe",
+        "estrutura"
+      ],
+      "type": "nota"
+    },
+    {
+      "slug": "zettelkasten",
+      "title": "Zettelkasten",
+      "tags": [
+        "metodo",
+        "conceito"
+      ],
+      "type": "nota"
+    }
+  ]
+}
