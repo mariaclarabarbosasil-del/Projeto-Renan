@@ -54,7 +54,11 @@ function resolve(target) {
 
 function inline(text, links) {
   let out = esc(text);
-  out = out.replace(/`([^`]+)`/g, "<code>$1</code>");
+  const codes = [];
+  out = out.replace(/`([^`]+)`/g, (_, code) => {
+    codes.push(code);
+    return `\u0000${codes.length - 1}\u0000`;
+  });
   out = out.replace(/\[\[([^\][|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => {
     const name = target.trim();
     links.push(name);
@@ -72,6 +76,7 @@ function inline(text, links) {
   out = out.replace(/(^|[\s>])#([\p{L}\p{N}_-]+)/gu, (_, pre, tag) => {
     return `${pre}<a class="tag" href="#/tag/${encodeURIComponent(tag)}">#${tag}</a>`;
   });
+  out = out.replace(/\u0000(\d+)\u0000/g, (_, index) => `<code>${codes[Number(index)]}</code>`);
   return out;
 }
 
