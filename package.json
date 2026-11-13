@@ -1,0 +1,11 @@
+{
+  "name": "cerebro",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Segundo cérebro com wikilinks, MOC e grafo de conhecimento",
+  "type": "module",
+  "scripts": {
+    "index": "node scripts/build-index.mjs",
+    "start": "python3 -m http.server 8080"
+  }
+}
