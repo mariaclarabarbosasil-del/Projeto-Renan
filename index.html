@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cérebro — segundo cérebro</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/nota/inicio">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-text">Cérebro</span>
+    </a>
+
+    <nav class="tabs" aria-label="Modo de visualização">
+      <a class="tab" data-view="nota" href="#/nota/inicio">Nota</a>
+      <a class="tab" data-view="grafo" href="#/grafo">Grafo</a>
+    </nav>
+
+    <label class="search">
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input id="search" type="search" placeholder="Buscar notas e tags…" autocomplete="off" />
+    </label>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <section class="side-block">
+        <h2 class="side-title">Mapas de conteúdo</h2>
+        <ul id="list-moc" class="side-list"></ul>
+      </section>
+
+      <section class="side-block">
+        <h2 class="side-title">Notas</h2>
+        <ul id="list-notes" class="side-list"></ul>
+      </section>
+
+      <section class="side-block">
+        <h2 class="side-title">Tags</h2>
+        <div id="list-tags" class="tag-cloud"></div>
+      </section>
+
+      <p class="side-foot" id="stats"></p>
+    </aside>
+
+    <main id="main" class="main" aria-live="polite"></main>
+  </div>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
