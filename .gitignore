@@ -1,0 +1,14 @@
+# Estado local do Obsidian
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache/
+**/.trash/
+
+# Arquivos locais e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store

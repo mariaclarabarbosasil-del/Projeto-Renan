@@ -71,3 +71,27 @@ scripts/build-index.mjs    lê o frontmatter e escreve o índice
 
 - [`notes/inicio.md`](notes/inicio.md) — boas-vindas e convenções
 - [`notes/moc.md`](notes/moc.md) — MOC: Mapa do Cérebro
+
+## Cofre para Obsidian
+
+### Segundo cérebro
+
+Cofre em Markdown com wikilinks, mapas de conteúdo (MOCs), projetos, áreas, conhecimento e revisões.
+
+## Começar
+
+Abra a pasta `Segundo Cerebro` como cofre no Obsidian e acesse `00 - Inicio/Inicio.md`.
+
+No GitHub, comece por [Início](Segundo%20Cerebro/00%20-%20Inicio/Inicio.md) ou [MOC Geral](Segundo%20Cerebro/00%20-%20Inicio/MOC%20Geral.md).
+
+Os wikilinks `[[Nota]]` foram preparados para um aplicativo compatível, como o Obsidian. No GitHub, eles aparecem como texto. O MOC Geral inclui um diagrama Mermaid das conexões principais.
+
+## Conteúdo
+
+- 21 notas em português.
+- Caixa de entrada para capturas.
+- MOCs de projetos, áreas, conhecimento e revisões.
+- Exemplos iniciais e cinco modelos de notas.
+- Roteiro para revisão semanal.
+
+Não há plugins externos obrigatórios. As rotinas são manuais.
